@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*  # For environment-specific files like .env.dev, .env.prod
+
+# Chroma vector database
+chroma_db/
+
+# Pytest / test cache
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+htmlcov/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System
+.DS_Store
+Thumbs.db
+
+# MyPy, Pyright
+.mypy_cache/
+.pyright/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Local SQLite or DB files
+*.sqlite3
+*.db
+
+# Node / frontend (if React frontend exists)
+node_modules/
+dist/
+build/
+*.lock
+*.log
+
+# Misc
+*.bak
+*.swp
+*.tmp
