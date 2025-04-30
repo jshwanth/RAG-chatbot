@@ -7,6 +7,7 @@ __pycache__/
 venv/
 .env/
 .env.*  # For environment-specific files like .env.dev, .env.prod
+.env
 
 # Chroma vector database
 chroma_db/
